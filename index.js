@@ -45,6 +45,7 @@ app.post("/", (req, res) => {
     "favoriteArtists": art
   })
   }
+  id =+ 1
 });
 
 app.listen(PORT, () => {
